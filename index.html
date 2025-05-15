@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GitHub User Finder</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-zinc-900 text-white font-sans min-h-screen flex items-center justify-center p-4">
+  <div class="w-full max-w-2xl space-y-6">
+    
+ 
+    <header class="text-center">
+      <h1 class="text-4xl font-extrabold tracking-tight text-emerald-400 drop-shadow-sm">GitHub User Finder</h1>
+      <p class="text-zinc-400 text-sm mt-2">Search and view GitHub user profiles in style</p>
+    </header>
+
+  
+    <div class="flex items-center gap-2 bg-zinc-800 rounded-xl p-3 focus-within:ring-2 focus-within:ring-emerald-500 shadow-inner">
+      <input type="text" placeholder="Enter GitHub username..."
+        class="usernameinp flex-1 bg-transparent outline-none text-white placeholder-zinc-500 px-3 py-2" />
+      <button class="search bg-indigo-600 hover:bg-indigo-700 px-5 py-2 rounded-lg text-sm font-medium transition-transform duration-200 hover:scale-105 shadow-md">
+        Search
+      </button>
+    </div>
+
+   
+    <div class="card bg-zinc-800 border border-zinc-700 rounded-xl p-6 shadow-xl flex flex-col sm:flex-row gap-6">
+    
+    </div>
+
+
+    <footer class="text-center text-xs text-zinc-500 mt-10">
+    
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
